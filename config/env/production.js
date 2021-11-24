@@ -342,11 +342,16 @@ module.exports = {
   * (if deploying behind a proxy, or to a PaaS like Heroku or Deis, you     *
   * probably don't need to set a port here, because it is oftentimes        *
   * handled for you automatically.  If you are not sure if you need to set  *
-  * this,s just try deploying without setting it and see if it works.)       *
+  * this, just try deploying without setting it and see if it works.)       *
   *                                                                         *
   ***************************************************************************/
-    //port: 8080,
- 
+  // port: 80,
+  host: process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1",
+port: process.env.OPENSHIFT_NODEJS_PORT || 8080,
+environment: process.env.NODE_ENV || 'development',
+explicitHost: process.env.HOST || 'logproject-fuseki-container.146.59.159.175.nip.io/',
+
+
 
 
   /**************************************************************************
