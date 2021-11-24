@@ -342,7 +342,7 @@ module.exports = {
   * (if deploying behind a proxy, or to a PaaS like Heroku or Deis, you     *
   * probably don't need to set a port here, because it is oftentimes        *
   * handled for you automatically.  If you are not sure if you need to set  *
-  * this, just try deploying without setting it and see if it works.)       *
+  * this,s just try deploying without setting it and see if it works.)       *
   *                                                                         *
   ***************************************************************************/
     port: 8080,
