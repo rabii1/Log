@@ -346,10 +346,9 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   // port: 80,
-  host: 'logproject-fuseki-container.146.59.159.175.nip.io' ,
-port: process.env.OPENSHIFT_NODEJS_PORT || 8080,
+ port: process.env.OPENSHIFT_NODEJS_PORT || 8080,
 environment: process.env.NODE_ENV || 'development',
-explicitHost: process.env.HOST || 'logproject-fuseki-container.146.59.159.175.nip.io',
+explicitHost:   'logproject-fuseki-container.146.59.159.175.nip.io',
 
 
 
