@@ -134,7 +134,7 @@ module.exports = {
   * If web browsers will be communicating with your app, be sure that        *
   * you have CSRF protection enabled.  To do that, set `csrf: true` over     *
   * in the `config/security.js` file (not here), so that CSRF app can be     *
-  * tested with      CSRF protection turned on in development mode too.           *
+  * tested with CSRF protection turned on in development mode too.           *
   *                                                                          *
   ***************************************************************************/
  
@@ -346,7 +346,7 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   // port: 80,
- port:   80,
+ port:   8080,
 environment: process.env.NODE_ENV || 'development',
 explicitHost:   'logproject-fuseki-container.146.59.159.175.nip.io',
 
