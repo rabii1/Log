@@ -348,7 +348,7 @@ module.exports = {
   // port: 80,
   port: process.env.OPENSHIFT_NODEJS_PORT,
   host: process.env.OPENSHIFT_NODEJS_IP,
-  environment: 'production'
+  environment: 'production',
 
 
 
