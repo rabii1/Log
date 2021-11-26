@@ -346,10 +346,11 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   // port: 80,
-  port: process.env.OPENSHIFT_NODEJS_PORT,
-  host: process.env.OPENSHIFT_NODEJS_IP,
-  environment: 'production',
-
+ port: process.env.OPENSHIFT_NODEJS_PORT || 8080,
+environment: process.env.NODE_ENV || 'development',
+explicitHost: process.env.OPENSHIFT_NODEJS_IP || 'log-abirsaid.146.59.159.175.nip.io',
+ 
+ 
 
 
   /**************************************************************************
