@@ -346,7 +346,7 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   // port: 80,
-// port:   8080,
+  port:   1439,
 environment: process.env.NODE_ENV || 'development',
 explicitHost:   'logproject-fuseki-container.146.59.159.175.nip.io',
 
