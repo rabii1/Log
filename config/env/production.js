@@ -345,7 +345,7 @@ module.exports = {
   * this, just try deploying without setting it and see if it works.)       *
   *                                                                         *
   ***************************************************************************/
-  // port: 80,
+  // port: 80,  
  port: process.env.OPENSHIFT_NODEJS_PORT ,
 environment: process.env.NODE_ENV || 'development',
 explicitHost:   'log-abirsaid.146.59.159.175.nip.io',
