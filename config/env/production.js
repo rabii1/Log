@@ -348,7 +348,7 @@ module.exports = {
   // port: 80,  
  port: process.env.OPENSHIFT_NODEJS_PORT ,
 environment: process.env.NODE_ENV || 'development',
-explicitHost:   '',
+explicitHost:   'log-abirsaid.146.59.159.175.nip.io',
  
  
 
