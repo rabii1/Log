@@ -19,9 +19,9 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': { view: 'if' ,local:{layout:false}},
+  '/': { view: 'if' ,locals:{layout:false}},
 
-
+  '/iframe':{ view: 'if' ,locals:{layout:false}},
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *
